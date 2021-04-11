@@ -17,8 +17,8 @@
  * }
  */
 
-function removeKFromList(/* l, k */) {
-  throw new Error('Not implemented');
+function removeKFromList(l, k) {
+  return l.filter((num) => num.length !== k);
 }
 
 module.exports = removeKFromList;
